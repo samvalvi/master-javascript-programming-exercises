@@ -1,3 +1,12 @@
 function addProperty(obj, key) {
-  // your code here
+  obj[key] = true
+  console.log(Object.entries(obj));
 }
+
+
+var car = {
+    brand: 'Toyota',
+    color: 'Blue',
+}
+
+addProperty(car, 'available');

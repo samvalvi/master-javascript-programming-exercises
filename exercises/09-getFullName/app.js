@@ -1,3 +1,5 @@
 function getFullName(firstName, lastName) {
-  // your code here
+    console.log(firstName + ' ' + lastName);
 }
+
+getFullName('John', 'Doe');
