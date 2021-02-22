@@ -13,5 +13,4 @@ const computeAverageOfNumbers = arr => {
     return average;
 }
 
-let result = computeAverageOfNumbers(input);
-console.log(result);
+console.log(computeAverageOfNumbers(input));
